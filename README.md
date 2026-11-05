@@ -65,6 +65,17 @@ Mask Name: Enter the rootname without file extension
 
 ![GUI_zoom](images/GUI_zoom.png)
 
+When annotating edge vesicles, if vesicle regions extend into the image padding area where vesicles are not expected, the following script can be used to remove these edge vesicle pixels (optional).
+
+```
+python isSPA_vesicle_edit_mask.py 
+--input mask.mrc 
+--output mask_edit.mrc 
+--size 409 409
+```
+
+The value provided to `--size` corresponds to the size of the bin10 image.
+
 ### 3.3 AI Model Train (optional)
 
 ```shell
