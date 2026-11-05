@@ -18,7 +18,7 @@ associated scripts:
 
 ## 2. Installation
 
-Download the `isSPA_vesicle-main.zip` software package. Inside this package, the `requiremnets.txt` file lists the environmental dependencies for this software.
+Download the `isSPA_vesicle-v0.0.3.zip` software package. Inside this package, the `requiremnets.txt` file lists the environmental dependencies for this software.
 
  We recommend creating an isolated virtual environment to avoid conflicts with existing Python environments on your machine. Below are `conda` environment setup instructions. 
 
@@ -213,7 +213,7 @@ Download the test datasets from Zenodo (DOI: [10.5281/zenodo.23470674](https://d
 
 ## 5. Citation
 
-1. If you use the isSPA-vesicle package, please cite this paper:（M. Zhao *et al.*, isSPA-vesicle: AI assisted structure determination of membrane proteins on vesicles.）DOI：https://doi.org/10.1073/pnas.2620173123
+1. If you use the isSPA-vesicle package, please cite this paper: (M. Zhao *et al.*, isSPA-vesicle: AI assisted structure determination of membrane proteins on vesicles.) DOI：https://doi.org/10.1073/pnas.2620173123
 
 2. If you also use isSPA, please cite the following paper: 
    ( J. Cheng, B. Li, L. Si, X. Zhang, Determining structures in a native environment using single-particle cryoelectron microscopy images; J. Cheng *et al.*, Determining protein structures in cellular lamella at pseudo-atomic resolution by GisSPA)
